@@ -1,0 +1,22 @@
+{
+  "name": "advent-of-code",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "Repository containing my solutions for the Advent of Code challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredrikj31/advent-of-code.git"
+  },
+  "keywords": [
+    "advent-of-code"
+  ],
+  "author": "Fredrik Johansen (@fredrikj31)",
+  "bugs": {
+    "url": "https://github.com/fredrikj31/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/fredrikj31/advent-of-code#readme"
+}
