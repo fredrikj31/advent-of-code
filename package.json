@@ -1,6 +1,6 @@
 {
   "name": "advent-of-code",
-  "type": "commonjs",
+  "type": "module",
   "version": "1.0.0",
   "description": "Repository containing my solutions for the Advent of Code challenges",
   "main": "index.js",
