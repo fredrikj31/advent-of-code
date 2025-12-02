@@ -1,0 +1,33 @@
+{
+  "name": "advent-of-code",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Repository containing my solutions for the Advent of Code challenges",
+  "main": "index.js",
+  "scripts": {
+    "solve": "tsx scripts/solve.ts",
+    "scaffold": "tsx scripts/scaffold.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredrikj31/advent-of-code.git"
+  },
+  "keywords": [
+    "advent-of-code"
+  ],
+  "author": "Fredrik Johansen (@fredrikj31)",
+  "bugs": {
+    "url": "https://github.com/fredrikj31/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/fredrikj31/advent-of-code#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.1",
+    "chalk": "^5.6.2",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
