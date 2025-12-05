@@ -1,20 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "./build",
-    "module": "nodenext",
-    "target": "es2022",
-    "types": ["@types/node", "@types/jest"],
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
+    "target": "es2024",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "build"
   },
   "exclude": ["build"],
   "include": ["src/**/*", "scripts/**/*"]
