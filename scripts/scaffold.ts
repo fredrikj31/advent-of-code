@@ -28,11 +28,11 @@ mkdirSync(baseDir, { recursive: true });
 // Create the solution file
 const solutionTemplate = `export const parseInput = (rawInput: string) => rawInput.split("\\n");
 
-export const part1 = (input: string): string => {
+export const part1 = (input: string[]): string => {
   return "Solution 1";
 };
 
-export const part2 = (input: string): string => {
+export const part2 = (input: string[]): string => {
   return "Solution 2";
 };
 `;
