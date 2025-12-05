@@ -28,11 +28,11 @@ mkdirSync(baseDir, { recursive: true });
 // Create the solution file
 const solutionTemplate = `export const parseInput = (rawInput: string) => rawInput.split("\\n");
 
-export const part1 = (input: string): string => {
+export const part1 = (input: string[]): string => {
   return "Solution 1";
 };
 
-export const part2 = (input: string): string => {
+export const part2 = (input: string[]): string => {
   return "Solution 2";
 };
 `;
@@ -60,9 +60,6 @@ try {
 
   writeFileSync(path.join(baseDir, "input.txt"), "");
   console.log(chalk.green("  ✓ Created input.txt"));
-
-  writeFileSync(path.join(baseDir, "readme.md"), `# Day ${day}`);
-  console.log(chalk.green("  ✓ Created readme.md"));
 
   console.log(chalk.blue.bold("\n🚀 Ready to go!"));
   console.log(chalk.dim(`   Run: npm run watch -- ${year} ${day}`));
