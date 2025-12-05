@@ -61,9 +61,6 @@ try {
   writeFileSync(path.join(baseDir, "input.txt"), "");
   console.log(chalk.green("  ✓ Created input.txt"));
 
-  writeFileSync(path.join(baseDir, "readme.md"), `# Day ${day}`);
-  console.log(chalk.green("  ✓ Created readme.md"));
-
   console.log(chalk.blue.bold("\n🚀 Ready to go!"));
   console.log(chalk.dim(`   Run: npm run watch -- ${year} ${day}`));
 } catch (error: any) {
